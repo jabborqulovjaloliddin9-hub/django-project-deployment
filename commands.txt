@@ -1,0 +1,19 @@
+1. Virtual muhit yaratish
+python3 -m venv .venv       - MacOS / Linux
+python -m venv .venv        - Windows
+
+2. Virtual muhitni aktivlashtirish
+source .venv/bin/activate   - MacOS / Linux
+.venv\Scripts\Activate      - Windows
+
+3. Djangoni virtual muhitga o'rnatish
+pip install Django
+
+4. Django loyiha yaratish
+django-admin startproject PROJECT .
+
+5. Serverga start berish
+python manage.py runserver
+
+6. Brauzerda quyidagi manzilni ochish
+http://localhost:8000
