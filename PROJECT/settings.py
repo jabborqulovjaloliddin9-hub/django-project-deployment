@@ -11,6 +11,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 AUTH_USER_MODEL = 'app_main.CustomUser'
 CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-ea70f.up.railway.app',
     'https://web-production-3489e.up.railway.app',
 ]
 
